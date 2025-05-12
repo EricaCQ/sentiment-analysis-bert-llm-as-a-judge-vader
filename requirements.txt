@@ -1,0 +1,11 @@
+openai
+python-dotenv
+pandas
+scikit-learn
+matplotlib
+seaborn
+transformers
+torch
+sentence-transformers
+vaderSentiment
+nltk
