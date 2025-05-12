@@ -5,15 +5,16 @@
 #### This project provides a complete sentiment analysis pipeline and evaluation framework comparing Bert and Vader using LLM as a judge using the following approach:
 
 #### VADER (rule-based, lexicon-based sentiment analysis)
-####BERT (transformer-based embeddings + logistic regression)
-####LLMs (Large Language Models via OpenAI / OpenRouter APIs)
+#### BERT (transformer-based embeddings + logistic regression)
+#### LLMs (Large Language Models via OpenAI / OpenRouter APIs)
 
-###It includes tools for:
+### It includes tools for:
 
-####Text classification using VADER and Sentence-BERT
-####LLM-powered annotation of training data
-####Comparative evaluation via classification reports and confusion matrices
-Features
+#### Text classification using VADER and Sentence-BERT
+#### LLM-powered annotation of training data
+#### Comparative evaluation via classification reports and confusion matrices
+
+### Features
 
 ### sentiment_vader: 
 #### Classifies raw text using VADER and returns all score components
@@ -36,7 +37,7 @@ Features
 #### sentiment_vader("This place was amazing!")
 ##### → (neg=0.0, neu=0.3, pos=0.7, compound=0.7269, label='Positive')
 
-###Classification Example (BERT vs LLM)
+### Classification Example (BERT vs LLM)
 
 ##### Label	Precision	Recall	F1-Score
 ##### negative	0.70	0.61	0.65
