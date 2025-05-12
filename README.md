@@ -26,17 +26,17 @@
 ### Project Structure
 
 ├── dataset_train.csv 
-# Unlabeled comments from restaurant reviews
+###### Unlabeled comments from restaurant reviews
 ├── dataset_valid.csv 
-# Validation set for final evaluation
+###### Validation set for final evaluation
 ├── vader_emo_com_sentiment.csv     
-# Parsed VADER sentiment with scores and labels
+###### Parsed VADER sentiment with scores and labels
 ├── utils.py                       
-# Sentiment functions (e.g., sentiment_vader)
+###### Sentiment functions (e.g., sentiment_vader)
 ├── BERT_Log_Reg_Classifier.ipynb  
-# BERT training pipeline
+###### BERT training pipeline
 ├── Evaluation.ipynb              
-# Model comparison and reporting
+###### Model comparison and reporting
 ├── requirements.txt
 
 ### Example Output
