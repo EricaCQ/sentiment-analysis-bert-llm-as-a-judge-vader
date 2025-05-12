@@ -25,14 +25,21 @@
 
 ### Project Structure
 
-├── dataset_train.csv                # Unlabeled comments from restaurant reviews
-├── dataset_valid.csv                # Validation set for final evaluation
-├── vader_emo_com_sentiment.csv      # Parsed VADER sentiment with scores and labels
-├── utils.py                         # Sentiment functions (e.g., sentiment_vader)
-├── BERT_Log_Reg_Classifier.ipynb    # BERT training pipeline
-├── Evaluation.ipynb                 # Model comparison and reporting
+├── dataset_train.csv 
+# Unlabeled comments from restaurant reviews
+├── dataset_valid.csv 
+# Validation set for final evaluation
+├── vader_emo_com_sentiment.csv     
+# Parsed VADER sentiment with scores and labels
+├── utils.py                       
+# Sentiment functions (e.g., sentiment_vader)
+├── BERT_Log_Reg_Classifier.ipynb  
+# BERT training pipeline
+├── Evaluation.ipynb              
+# Model comparison and reporting
 ├── requirements.txt
-📌 Example Output
+
+### Example Output
 
 #### sentiment_vader("This place was amazing!")
 ##### → (neg=0.0, neu=0.3, pos=0.7, compound=0.7269, label='Positive')
